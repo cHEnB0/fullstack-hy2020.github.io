@@ -179,7 +179,7 @@ $ heroku config:set MONGODB_URI=mongodb+srv://fullstack:secretpasswordhere@clust
 **注意**：如果命令行产生了一个错误，在撇号中给 MONGODB_URI 设置一个值
 
 ```bash
-$ heroku config:set MONGODB_URI='mongodb+srv://fullstack:secretpasswordhere@cluster0-ostce.mongodb.net/note-app?retryWrites=true'
+$ heroku config:set MONGODB_URI="mongodb+srv://fullstack:secretpasswordhere@cluster0-ostce.mongodb.net/note-app?retryWrites=true"
 ```
 
 <!-- The application should now work. Sometimes things don't go according to plan. If there are problems, <i>heroku logs</i> will be there to help. My own application did not work after making the changes. The logs showed the following: -->
